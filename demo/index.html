@@ -9,7 +9,6 @@
     <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
     <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
     <link rel="import" href="../../t-shared-components/theme.html">
-    <link rel="import" href="../../t-header/t-header.html">
     <link rel="import" href="../../t-text-container/travel-element-styles.html">
     <link rel="import" href="../t-profile-change-password.html">
 
@@ -27,16 +26,9 @@
 
          <template is="dom-bind" id="templatizer">
                 <t-profile-change-password
-                  on-reset-profile-password="passwordChanged" 
+                 current-password="{{currentPassword}}"
+                 new-password="{{newPassword}}"
                 >
-                 <t-header
-                    icon="arrow-back"
-                    label="Personal Info"
-                    class="t-header">
-                    <div>
-                      <h1>Change Password</h1>
-                    </div>                
-                </t-header>
               </t-profile-change-password>
             </template>
             <script>
@@ -44,9 +36,8 @@
                     'use strict'
                         window.addEventListener('WebComponentsReady', function(e) {
                         var templatizer = document.getElementById('templatizer');
-                        templatizer.passwordChanged = function (e) {
-                            console.log(e.detail)
-                        };
+                        templatizer.currentPassword="Hello@1234";
+                        templatizer.newPassword="Hello@123456"
                     });
                 })();
             </script>
