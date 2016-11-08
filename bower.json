@@ -6,7 +6,7 @@
     "polymer": "Polymer/polymer#^1.4.0",
     "t-button": "atomelements/t-button#^1.2.0",
     "t-text-container": "travelnxtelements/t-text-container#^1.1.2",
-    "t-password-input": "atomelements/t-password-input#^1.0.2",
+    "t-password-input": "atomelements/t-password-input#^1.0.2"
   },
   "devDependencies": {
     "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
