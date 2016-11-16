@@ -1,7 +1,30 @@
 {
   "name": "t-profile-change-password",
+  "version": "0.0.0",
+  "authors": [
+    "Rahul Pilkhwal <rahul.pilkhwal@tavisca.com>",
+    "Shailesh Kumar Srivastava <ssrivastava@tavisca.com>",
+    "Sounak Pal <spal@tavisca.com>",
+    "Ajinkya Tejankar <tejankarajinkya@gmail.com>",
+    "Manoj Chalode <chalodem@gmail.com>"
+  ],
   "description": "The component describes how a user can change his her password",
   "main": "t-profile-change-password.html",
+  "moduleType": [],
+  "keywords": [
+    "Polymer",
+    "Web",
+    "Components"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
     "polymer": "Polymer/polymer#^1.4.0",
     "t-button": "atomelements/t-button#^1.2.0",
